@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: #99c0c9;
+  text-align: center;
+  margin-top: 2rem;
+}
+.contenedor {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-text {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+#tarea {
+  width: 100%;
+  background: #99c0c9;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+  color: #000;
+  font-size: 1rem;
+}
+button.add {
+  background: #000;
+  border: none;
+  border-radius: 5px;
+  margin-left: 0.7rem;
+  padding: 0;
+}
+button i {
+  font-size: 2.8rem;
+  color: #99c0c9;
+  cursor: pointer;
+}
+.content-select {
+  display: flex;
+}
+#task {
+  appearance: none;
+  padding: 0.7rem;
+  width: 15rem;
+  background: #bdc7c9;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+#task::-ms-expand {
+  display: none;
+}
+#task:hover {
+  background: #99c0c9;
+}
+
+.content-lista{
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.content-lista .lista-tarea{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.item-lista{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #99c0c9;
+  border-radius: 10px;
+  margin-bottom: .5rem;
+  padding: 1rem .5rem;
+  font-size: 1.2rem;
+}
+.item-lista .btn-icons button{
+  background: #000;
+  border: none;
+}
+
+.item-lista .btn-icons button i{
+  font-size: 2rem;
+}
+.item-lista .btn-icons button:nth-child(2){
+  margin-left: 1rem;
+}
+.fa-trash{
+  color: #ff2424;
+}
+.fa-edit{
+  color: #ffe268;
+}
+
+
+li.item-lista-completa{
+  opacity: 50%;
+}
